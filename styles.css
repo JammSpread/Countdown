@@ -1,0 +1,19 @@
+body {
+    background-color: #fcfcfc;
+}
+
+#countdown {
+    margin-left: calc(calc(100vw - calc(100vw / 6) * 3) / 2);
+    margin-top: calc(calc(100vh / 1.5) / 2);
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+#countdown input {
+    border: none;
+    background-color: #333;
+    color: white;
+    font-size: calc(100vw / 8);
+    text-align: center;
+    width: calc(100vw / 6);
+    height: calc(100vh / 4);
+}
